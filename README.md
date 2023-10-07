@@ -31,10 +31,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 1](.../assets/1.JPG)
-![Screenshot 1](.../assets/2.JPG)
-![Screenshot 1](.../assets/3.JPG)
-![Screenshot 1](.../assets/4.JPG)
+![Desktop](./starter-code/assets/1.JPG)
+![Desktop](./starter-code/assets/2.JPG)
+![Mobile](./starter-code/assets/3.JPG)
+![Flexible Menu](./starter-code/assets/4.JPG)
 
 
 ### Links

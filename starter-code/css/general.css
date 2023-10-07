@@ -1,0 +1,148 @@
+
+/* ************************** */
+/* GENERAL REUSABLE COMPONENTS */
+/* ************************** */
+
+/* #moon-tab, #mars-tab, #europa-tab, #titan-tab{
+  display:none;
+} */
+
+[hidden] {
+  display: none;
+}
+
+
+.flex{
+  display: flex;
+  
+}
+
+.grid{
+  display: grid;
+  place-items: center;
+ 
+  
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols{
+  display: grid;
+  grid-template-columns:repeat(2, 1fr) ;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.d-block{
+  display: block;
+}
+
+.fs-200{
+  font-size: clamp(1rem, 2vw, 2.4rem);
+}
+
+.fs-400{
+  font-size: clamp(1.5rem, 1.2vw, 2rem);
+}
+
+.fs-500{
+  font-size: clamp(1.5rem, 2vw, 2.8rem); 
+}
+
+.fs-600{
+  font-size: clamp(2rem, 1.2vw, 8rem); 
+}
+
+.fs-700{
+  font-size: clamp(5rem, 1.2vw, 8rem); 
+}
+
+.fs-800{
+  font-size: clamp(4rem, 8vw, 10rem); 
+}
+
+.fs-900{
+  font-size: clamp(8rem, 10vw, 18rem); 
+}
+
+.fx-28{
+  font-size: 28px;
+}
+
+.letter-spacing-1{
+  letter-spacing: .4rem;
+}
+
+.letter-spacing-2{
+  letter-spacing: .1rem;
+}
+
+.destination-number{
+  margin-right: 2rem;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.ff-belle{
+  font-family: var(--primary-font);
+}
+
+.ff-barrow{
+  font-family: var(--secondary-font);
+}
+
+.text-white{
+  color:#fff;
+}
+
+.text-grey{
+  color:#aaa;
+}
+
+
+
+html{
+  font-size:62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body{
+ 
+  color:#fff;
+  background-color: hsl(0 0% 0% / 0.5);
+  line-height: 1.5;
+  min-height: 100vh;
+ 
+
+  /* Screen */
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
+
+}
+
+/* ************************** */
+/* HEADER */
+/* ************************** */
+
+
+header{
+  margin: 0 auto;
+  width: 100%;
+  font-family: var(--secondary-font);
+  
+}
+
+/* -- */
